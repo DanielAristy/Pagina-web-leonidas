@@ -325,6 +325,27 @@ figure {
   .proyecto-detalle {
     width: auto;
   }
+  .proyecto-titulo {
+    font-size: 1.5em;
+    margin-bottom: 0.3em;
+  }
+  .proyecto-curso {
+    font-size: 0.7em;
+  }
+  .proyecto-fecha {
+    font-size: 1em;
+  }
+  .proyecto-url {
+    font-size: 1em;
+  }
+  .proyecto-descripcion {
+    font-size: 0.8em;
+  }
+  .proyecto-curso,
+  .proyecto-fecha,
+  .proyecto-url {
+    margin: 0.3em 0; /*Menos separacion de los margenes*/
+  }
   .proyecto-imagen-container {
     width: auto;
     text-align: center;
@@ -332,6 +353,10 @@ figure {
 }
 
 @media screen and (max-width: 480px) {
+  .proyecto-detalle {
+    width: auto;
+    font-size: 12px;
+  }
 }
 @media screen and (max-width: 320px) {
 }
