@@ -28,7 +28,7 @@ h6 {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 38px;
   line-height: 1.5em;
   letter-spacing: -0.2px;
   color: white;
@@ -94,7 +94,6 @@ figure {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
 }
 
 .hero-image {
