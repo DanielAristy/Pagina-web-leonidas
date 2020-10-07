@@ -101,6 +101,10 @@ figure {
 }
 
 /*Portafolio*/
+.html-video {
+  max-width: 100%;
+  height: auto;
+}
 .portafolio {
   padding: 20px;
   background: #fafafa;
